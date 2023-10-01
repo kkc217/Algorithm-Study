@@ -6,14 +6,14 @@ from itertools import permutations
 
 n, m = map(int, input().split())
 
-# 풀이 1
+# 풀이 1(파이썬 라이브러리 사용)
 num_list = [_ for _ in range(1, n + 1)]
 
 for p in permutations(num_list, m):
     print(*p)
 
 
-# 풀이 2
+# 풀이 2 (백트랙킹)
 answer = []
 
 
