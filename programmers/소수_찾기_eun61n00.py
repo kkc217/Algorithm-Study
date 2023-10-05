@@ -36,5 +36,5 @@ def solution(numbers):
         for c in comb:
             n = int(''.join(c))
             answer += is_prime(n)
-
+            
     return answer
