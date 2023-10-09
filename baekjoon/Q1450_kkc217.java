@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Q1450 {
+public class Q1450_kkc217 {
 
     static int n, c;
 
