@@ -26,9 +26,7 @@ class Solution {
 
         return result.stream().mapToInt(Integer::intValue).toArray();
     }
-}
 
-public class 개인정보_수집_유효기간 {
     public static void main(String[] args) throws ParseException {
         Solution solution = new Solution();
         String today = "2022.05.19";
